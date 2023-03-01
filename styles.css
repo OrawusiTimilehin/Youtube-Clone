@@ -1,0 +1,7 @@
+.thumbnails {
+	width: 400px;
+	object-fit: cover;
+	border: 2px;
+	border-style: solid;
+	border-color: red;
+}
