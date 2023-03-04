@@ -4,13 +4,18 @@
 }
 
 .header{
-    border: 1px;
-    border-style: solid;
-    border-color: #dedede;
+    background-color: rgb(255,255,255);
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #f0e8e8;
     height: 57px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
 }
 
 .left-section{
@@ -30,7 +35,7 @@
     display: flex;
     align-items: center;
     flex: 1;
-    max-width: 480px;
+    max-width: 600px;
 }
 
 .notifications{
@@ -52,7 +57,8 @@
     height: 40px;
     flex: 1;
     font-family: 'Roboto', Arial;
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: 300;
     border: 1px solid #dedede;
     width: 0;
     box-shadow: inset 1px 2px 2px rgba(0,0,0,0.05)
@@ -61,7 +67,7 @@
 .search-box::placeholder{
     font-family: 'Roboto', Arial;
     color: #b7b5b5;
-    font-size: 15px;
+    font-size: 16px;
 }
 .search-img{
     width: 25px;
@@ -74,7 +80,7 @@
     border: 1px solid #dedede;
     padding: 1px 6px 1px;
     margin: -1px;
-    background-color: #efefef;
+    background-color: #F0F0F0;
 }
 
 .upload-button{
