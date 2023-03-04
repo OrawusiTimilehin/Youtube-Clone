@@ -1,0 +1,58 @@
+.sidebar{
+    width: 65px;
+    position: fixed;
+    top: 58px;
+    left:0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-container{
+    height: 50px
+}
+
+.explore-icon{
+    width: 25px;
+}
+
+.home-container{
+    height: 50px
+}
+
+.home-icon{
+    width: 25px;
+}
+
+.library-container{
+    height: 50px
+}
+
+.library-icon{
+    width: 25px;
+}
+
+.originals-container{
+    height: 50px
+}
+
+.originals-icon{
+    width: 25px;
+}
+
+.subscriptions-container{
+    height: 50px
+}
+
+.subscriptions-icon{
+    width: 25px;
+}
+
+.youtube-music-container{
+    height: 50px
+}
+
+.youtube-music-icon{
+    width: 25px;
+}

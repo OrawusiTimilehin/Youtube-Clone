@@ -17,6 +17,9 @@
 
 }
 
+.thumbnail-container{
+    position: relative
+}
 .thumbnails {
 	width: 100%;
 }
@@ -42,6 +45,18 @@
 	display: grid;
 	grid-template-columns: 50px 1fr;
 	
+}
+
+.video-length-tag{
+    font-family: "Roboto", Arial;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 7px;
+    right: 4px;
+    padding: 2px 4px;
 }
 .video-title{
 	margin-top: 12px;
