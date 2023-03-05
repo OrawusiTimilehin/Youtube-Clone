@@ -21,6 +21,7 @@
     position: relative
 }
 .thumbnails {
+    border-radius: 20px;
 	width: 100%;
 }
 
@@ -31,9 +32,6 @@
 	row-gap: 40px;
 }
 .video-container{
-	border: 2px;
-	border-style: solid;
-	border-color: red;
 }
 
 .video-details{

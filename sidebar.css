@@ -1,5 +1,6 @@
 .sidebar{
-    width: 65px;
+    background-color: white;
+    width: 75px;
     position: fixed;
     top: 58px;
     left:0;
@@ -9,50 +10,23 @@
     align-items: center;
 }
 
-.explore-container{
-    height: 50px
+.sidebar-link-container{
+    font-family: 'Roboto', Arial;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
 }
 
-.explore-icon{
+.sidebar-link-container:hover{
+    background-color: rgb(234, 232, 232);
+}
+
+.sidebar-icon{
     width: 25px;
 }
 
-.home-container{
-    height: 50px
-}
-
-.home-icon{
-    width: 25px;
-}
-
-.library-container{
-    height: 50px
-}
-
-.library-icon{
-    width: 25px;
-}
-
-.originals-container{
-    height: 50px
-}
-
-.originals-icon{
-    width: 25px;
-}
-
-.subscriptions-container{
-    height: 50px
-}
-
-.subscriptions-icon{
-    width: 25px;
-}
-
-.youtube-music-container{
-    height: 50px
-}
-
-.youtube-music-icon{
-    width: 25px;
-}

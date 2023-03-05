@@ -16,6 +16,7 @@
     top: 0px;
     left: 0;
     right: 0;
+    z-index:100;
 }
 
 .left-section{
@@ -36,6 +37,25 @@
     align-items: center;
     flex: 1;
     max-width: 600px;
+}
+
+.notifications-container{
+    position: relative;
+}
+
+.notification-counter{
+    font-family: 'Roboto', Arial;
+    font-size: 12px;
+    position: absolute;
+    top: 1px;
+    right: -4px;
+    background-color: rgb(192, 43, 43);
+    color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 1px 5px;
+    
+
 }
 
 .notifications{
